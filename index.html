@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Abby's Studio</title>
+
+    <style>
+        body {
+            background-color: #e6e6fa; /* lavender */
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        .frame {
+            width: 94%;
+            height: 94%;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="frame">
+        <!-- PUT YOUR ESP32 URL HERE -->
+        <iframe src="http://YOUR-ESP32-URL-HERE"></iframe>
+    </div>
+</body>
+</html>
